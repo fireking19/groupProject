@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<html>
+    <body>
+        <h1 id="main-heading">The Big 3</h1>
+        <button id="loopImgs" onclick="loopImgs()">
+            Start Loop
+        </button>
+        <p>
+            <select id="sel" onchange="toggle()">
+                <option value="0" selected>Main</option>
+                <option value="1" >Los Angeles</option>
+                <option value="2">Oakland</option>
+                <option value="3">Richmond</option>
+                <option value="4">Sports</option>
+                <option value="5">Movies</option>
+                <option value="6">Brands</option>
+            </select>
+        </p>
+
+        <div id="main">
+            <img class="my-imgs" src="https://www.hiddengeniusproject.org/wp-content/uploads/2017/12/8S1A0354-1000.jpg" />
+        
+        </div>
+
+        <div id="location1" style="display:none;">
+            <img class="my-imgs" src="https://ca-times.brightspotcdn.com/dims4/default/ddb8b83/2147483647/strip/true/crop/1920x1080+0+0/resize/840x473!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Feb%2F77%2Fddff1ee4cbb73a69cadf4f23e01b%2Fla-1502682954-jbe1t7m6r4-snap-image" />
+        </div>
+
+        <div id="location2" style="display:none;">
+            <img class="my-imgs" src="https://www.visitcalifornia.com/sites/visitcalifornia.com/files/styles/welcome_image/public/vc_spotlightoakland_hero_oakland_rf_895763984_1280x640.jpg" />
+        </div>
+
+        <div id="location3" style="display:none;">
+            <img class="my-imgs" src="https://notblowingsmoke.org/wp-content/uploads/2018/01/cta-richmoind-ca.jpg" />
+        </div>
+
+        <div id="similar1" style="display:none;">
+            <img class="my-imgs" src="https://pbs.twimg.com/media/ErRKGq0VEAEWWqO.jpg"/>
+        </div>
+        <div id="similar2" style="display:none;">
+            <img class="my-imgs" src="https://images-na.ssl-images-amazon.com/images/I/81tp9pYsWqL._RI_.jpg" style="width:50%"/>
+        </div>
+        <div id="similar3" style="display:none;">
+            <img class="my-imgs" src="https://wallpapercave.com/wp/wp5065257.jpg" style="width:50%;  padding:10px;"/>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>
+
+
